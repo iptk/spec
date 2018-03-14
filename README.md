@@ -44,7 +44,7 @@ See below for an example of a valid IPTK dataset containing some DICOM images an
 Metadata within IPTK consists of JSON-serialized key-value-pairs stored within the _meta/_ subfolder of each dataset. Each metadata set is uniquely defined by its specification and its dataset.
 
 ### Metadata specifications
-A metadata specification reserves an identifier for a specific kind of metadata. While you can simply generate a random identifier and use that for all your metadata of a specific kind, all users are encouraged to share their specifications at [iptk/metadata-specs](https://github.com/iptk/metadata-specs).
+A metadata specification reserves an identifier for a specific kind of metadata. While you can simply generate a random identifier and use that for all your metadata of a specific kind, all users are encouraged to share their specifications at [iptk/metadata-specs](https://github.com/iptk/specs).
 
 At a minimum, a metadata specification should contain the reserved _identifier_, a short _name_ and some _description_ of the kind of data that is stored under this specification. Additionally, a _contact_, _url_, and _organization_ may be specified, where further information about the metadata can be obtained. The name and description may be used in IPTK-based user interfaces.
 
